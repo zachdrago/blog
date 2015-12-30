@@ -7,7 +7,7 @@ $(function() {
  
     var Blog = Parse.Object.extend("Blog");
     var Blogs = Parse.Collection.extend({
-    model: Blog
+    model: Blog,
 });
     var blogs = new Blogs();
     blogs.fetch({
